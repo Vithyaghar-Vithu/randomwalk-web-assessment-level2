@@ -296,120 +296,148 @@ function button11(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b11="X";
+        btn11.value="X"
         btn11.disabled = true;
         flag+=1;
     }
     else{
         b11="O";
+        btn11.value="X"
         btn11.disabled = true;
         flag+=1;
     }
+
+    game();
 
 }
 function button12(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b12="X";
+        btn12.value="X";
         btn12.disabled = true;
         flag+=1;
     }
     else{
         b12="O";
+        btn12.value="X";
         btn12.disabled = true;
         flag+=1;
     }
+    game();
 }
 function button13(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b13="X";
+        btn13.value="X";
         btn13.disabled = true;
         flag+=1;
     }
     else{
         b13="O";
+        btn13.value="X";
         btn13.disabled = true;
         flag+=1;
     }
+    game();
 }
 
 function button21(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b21="X";
+        btn21.value="X";
         btn21.disabled = true;
         flag+=1;
     }
     else{
         b21="O";
+        btn21.value="X";
         btn21.disabled = true;
         flag+=1;
     }
+    game();
 }
 function button22(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b22="X";
+        btn22.value="X";
         btn22.disabled = true;
         flag+=1;
     }
     else{
         b22="O";
+        btn22.value="X";
         btn22.disabled = true;
         flag+=1;
     }
+    game();
 }
 function button23(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b23="X";
+        btn23.value="X";
         btn23.disabled = true;
         flag+=1;
     }
     else{
         b23="O";
+        btn23.value="X";
         btn23.disabled = true;
         flag+=1;
     }
+    game();
 }
 
 function button31(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b31="X";
+        btn31.value="X";
         btn31.disabled = true;
         flag+=1;
     }
     else{
         b31="O";
+        btn31.value="X";
         btn31.disabled = true;
         flag+=1;
     }
+    game();
 }
 function button32(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b32="X";
+        btn32.value="X";
         btn32.disabled = true;
         flag+=1;
     }
     else{
         b32="O";
+        btn32.value="X";
         btn32.disabled = true;
         flag+=1;
     }
+    game();
 }
 function button33(){
     initializeVariables();
     if( flag % 2 == 0 ){
         b33="X";
+        btn33.value="X";
         btn33.disabled = true;
         flag+=1;
     }
     else{
         b33="O";
+        btn33.value="X";
         btn33.disabled = true;
         flag+=1;
     }
+    game();
 }
 
