@@ -34,7 +34,7 @@ function game(){
 
 
     if(b11 == 'X' && b12 == 'X' && b13 == 'X'){
-        winner = "Player X won"
+        winner = "Player X won";
 
         btn11.style.color="red";
         btn12.style.color="red";
@@ -50,7 +50,7 @@ function game(){
 
     }
     else if(b11 == 'X' && b22 == 'X' && b33 == 'X'){
-        winner = "Player X won"
+        winner = "Player X won";
 
         btn11.style.color="red";
         btn22.style.color="red";
@@ -65,7 +65,7 @@ function game(){
     
     }
     else if(b11 == 'X' && b21 == 'X' && b31 == 'X'){
-        winner = "Player X won"
+        winner = "Player X won";
 
         btn11.style.color="red";
         btn21.style.color="red";
@@ -80,7 +80,7 @@ function game(){
     
     }
     else if(b12 == 'X' && b22 == 'X' && b32 == 'X'){
-        winner = "Player X won"
+        winner = "Player X won";
 
         btn12.style.color="red";
         btn22.style.color="red";
@@ -95,7 +95,7 @@ function game(){
     
     }
     else if(b13 == 'X' && b23 == 'X' && b33 == 'X'){
-        winner = "Player X won"
+        winner = "Player X won";
 
         btn13.style.color="red";
         btn23.style.color="red";
@@ -110,7 +110,7 @@ function game(){
     
     }
     else if(b13 == 'X' && b22 == 'X' && b31 == 'X'){
-        winner = "Player X won"
+        winner = "Player X won";
 
         btn13.style.color="red";
         btn22.style.color="red";
@@ -125,7 +125,7 @@ function game(){
     
     }
     else if(b21 == 'X' && b22 == 'X' && b23 == 'X'){
-        winner = "Player X won";
+        winner = "Player X won";;
 
         btn21.style.color="red";
         btn22.style.color="red";
@@ -140,7 +140,7 @@ function game(){
     
     }
     else if(b31 == 'X' && b32 == 'X' && b33 == 'X'){
-        winner = "Player X won";
+        winner = "Player X won";;
 
         btn31.style.color="red";
         btn32.style.color="red";
