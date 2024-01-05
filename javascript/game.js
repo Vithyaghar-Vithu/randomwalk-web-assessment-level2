@@ -1,7 +1,6 @@
 var b11, b12, b13, b21, b22, b23, b31, b32, b33;
 var btn11, btn12, btn13, btn21, btn22, btn23, btn31, btn32, btn33;
 var winner;
-var flag = 0;
 
 function initializeVariables() {
     b11 = document.getElementById("b11").value;
@@ -292,19 +291,21 @@ function game(){
     }
 }
 
+var flag=0;
+
 function button11(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag  == 0 ){
         b11="X";
         btn11.value="X"
         btn11.disabled = true;
-        flag+=1;
+        flag=1;
     }
     else{
         b11="O";
         btn11.value="X"
         btn11.disabled = true;
-        flag+=1;
+        flag=1;
     }
 
     game();
@@ -312,11 +313,11 @@ function button11(){
 }
 function button12(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b12="X";
         btn12.value="X";
         btn12.disabled = true;
-        flag+=1;
+        flag=1;
     }
     else{
         b12="O";
@@ -328,7 +329,7 @@ function button12(){
 }
 function button13(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b13="X";
         btn13.value="X";
         btn13.disabled = true;
@@ -345,11 +346,11 @@ function button13(){
 
 function button21(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b21="X";
         btn21.value="X";
         btn21.disabled = true;
-        flag+=1;
+        flag=1;
     }
     else{
         b21="O";
@@ -361,11 +362,11 @@ function button21(){
 }
 function button22(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b22="X";
         btn22.value="X";
         btn22.disabled = true;
-        flag+=1;
+        flag=1;
     }
     else{
         b22="O";
@@ -377,11 +378,11 @@ function button22(){
 }
 function button23(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b23="X";
         btn23.value="X";
         btn23.disabled = true;
-        flag+=1;
+        flag=1;
     }
     else{
         b23="O";
@@ -394,11 +395,11 @@ function button23(){
 
 function button31(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b31="X";
         btn31.value="X";
         btn31.disabled = true;
-        flag+=1;
+        flag=1;
     }
     else{
         b31="O";
@@ -410,11 +411,11 @@ function button31(){
 }
 function button32(){
     initializeVariables();
-    if( flag % 2 == 0 ){
+    if( flag = 0 ){
         b32="X";
         btn32.value="X";
         btn32.disabled = true;
-        flag+=1;
+        flag=0;
     }
     else{
         b32="O";
