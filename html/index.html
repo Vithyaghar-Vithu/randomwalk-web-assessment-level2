@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/game.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+
+    <div class="container">
+        <div class="left">
+            <h2>Left Section</h2>
+            <p>This is the left section content.</p>
+        </div>
+    
+        <div class="center">
+            <div class="game">
+    
+                <div class="row">
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b11" onclick="button11(); game();" readonly>
+                    </div>
+        
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b12" onclick="button12(); game();" readonly>
+                    </div>
+        
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b13" onclick="button13(); game();" readonly>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b21" onclick="button21(); game();" readonly>
+                    </div>
+        
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b22" onclick="button22(); game();" readonly>
+                    </div>
+        
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b23" onclick="button23(); game();" readonly>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b31" onclick="button31(); game();" readonly>
+                    </div>
+        
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b32" onclick="button32(); game();" readonly>
+                    </div>
+        
+                    <div class="cellWrapper">
+                        <input class="cell" type="text" id="b33" onclick="button33(); game();" readonly>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="right">
+            <h2>Right Section</h2>
+            <p>This is the right section content.</p>
+        </div>
+    </div>
+
+    <div>
+        <h2 id="winnerDisplay"></h2>
+    </div>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
